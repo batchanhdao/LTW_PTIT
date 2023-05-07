@@ -1,0 +1,59 @@
+body {
+    /*Kết hợp kiểu chữ*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+    /*xác định khoảng cách từ hai bên*/
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.error {
+    font-weight: bold;
+/*    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;*/
+    color: red;
+}
+h1 {
+    color: teal;
+}
+label {
+    float: left;
+    font-weight: bold;
+    /*    font-weight: bold; 
+        color: blue;*/
+    width: 5cm; /*chiều rộng*/
+    /*khoảng cách dưới*/
+    margin-bottom: 0.5em;
+}
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+
+input[type="text"], input[type="email"] {
+    width: 15em;
+    margin-left: 0.5cm;
+    margin-bottom: 0.5cm;
+    border-radius: 5px; /* Tạo mức viền tròn */
+    border: 2px solid gray;  /* độ đậm đường viền */
+}
+input[type="radio"] {
+    width: 1cm;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+select {
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+br {
+    clear: both;
+}
+#submit {
+    margin-left: 1em;
+}
+#reset {
+    margin-left: 1cm;
+}
+
